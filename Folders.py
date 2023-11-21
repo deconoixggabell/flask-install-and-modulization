@@ -12,7 +12,7 @@ templates = "templates"
 static = "static"
 
 
-# messages
+# messages definitions
 error_folder_1 = "Folder already exists"
 successful_folder = "Folders Created"
 
@@ -25,7 +25,7 @@ path_controllers = f"{project_location}/{project_name}/{flask_app}/{controllers}
 path_templates = f"{project_location}/{project_name}/{flask_app}/{templates}"
 path_static = f"{project_location}/{project_name}/{flask_app}/{static}"
 
-
+# conditional statement To make sure that the Project doesn't exist
 if not os.path.exists(path):
     os.makedirs(path)
     os.makedirs(path_flask_app)

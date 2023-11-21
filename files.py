@@ -110,7 +110,7 @@ if not os.path.exists(static_js):
 else:
     print(f"{error_1}: {static_js}")
 
-# printing everthing from the path diretory
+# printing everthing from the path which is also the Project location
 for dirpath, dirnames, filenames in os.walk(f"{project_location}/{project_name}"):
     print('Current Path:', dirpath)
     print('Directories:', dirnames)
