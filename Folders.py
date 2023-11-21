@@ -1,7 +1,7 @@
 import os
 
 # The location where our flask folders will be created
-project_location = "/Users/deconoixgloiregabell/Documents/projects"
+project_location = "enter the file location here"
 
 project_name = "Task"
 flask_app = "flask_app"
